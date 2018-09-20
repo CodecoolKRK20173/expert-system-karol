@@ -12,7 +12,6 @@ public class Fact{
     Fact(String id, String description){
         this.id = id;
         this.description = description;
-        System.out.println("CHUUUUUUUUUUUUUUUUJ");
 	    facts = new TreeMap<String, Boolean>();
     }
 

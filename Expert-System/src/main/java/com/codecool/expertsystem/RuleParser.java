@@ -67,12 +67,6 @@ public class RuleParser extends XMLParser{
             e.printStackTrace();
         }
 
-
-        /*The RuleParser adds the questions with their corresponding id to the RuleRepository
-         instance. This is stored in a Map inside the RuleRepository (as a field instance).
-          The RuleRepository constructor initializes the QuestionIterator inner class that 
-          implements the Iterator interface.
-           With this we can iterate through the questions later.*/
     }
 
     public RuleRepository getRuleRepository(){
